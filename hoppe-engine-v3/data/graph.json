@@ -1,0 +1,601 @@
+{
+ "engine": "Hoppe Engine v3",
+ "loaded": "2026-10-31",
+ "append_only": true,
+ "provenance": "Graph content carried forward from v1 (2026-10-29) through v2 (2026-10-31) into v3 (2026-11-02), unchanged as data. In v3 the framework's core pieces also run as working code (see README); this graph remains the register data the Governor validates. Graph content carried forward from v1 (2026-10-29). The v1 file's stale DOI/licence header lines are NOT carried: that DOI was verified removed on 2026-10-29 (assembly appendix, conflict 5; flagged for the author's ruling, not resolved here).",
+ "core_objects": [
+  {
+   "id": "M0",
+   "name": "M=0 reference state",
+   "note": "Reference boundary/gap/origin condition; not arithmetic zero. Start from epsilon, not true zero.",
+   "status": "FRAMEWORK RESULT",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "T0",
+   "name": "Seed geometry T_0 = (1, sqrt(24), 5)",
+   "note": "1^2 + 24 = 25.",
+   "status": "DERIVED",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "EPS_ETA",
+   "name": "Reciprocal scale pair epsilon/eta",
+   "note": "epsilon = 5-2sqrt(6) ~= 0.101020514; eta = 5+2sqrt(6) ~= 9.898979486; eps*eta = 1; eps+eta = 10.",
+   "status": "DERIVED",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "PELL",
+   "name": "Pell structure x^2-6y^2=1",
+   "note": "Recurrence a(n+1)=10a(n)-a(n-1); steps (1,0),(5,2),(49,20),(485,198),(4801,1960).",
+   "status": "DERIVED",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HOP",
+   "name": "H-Operator H(S,B,R,O) -> S' ; shorthand H(S,B,T) = S'",
+   "note": "Method: correct the measurement first (dimensionless ratios, same stick both ends), then solve for the invariant.",
+   "status": "FRAMEWORK RESULT",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "DEMO001",
+   "name": "Public Demonstration #001",
+   "note": "Spontaneous self-correction of a closed loop: REFUTED. Boundary-intervention variant: HYPOTHESIS.",
+   "status": "REFUTED",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  }
+ ],
+ "entries": [
+  {
+   "id": "HE-01",
+   "note": "Existence; observation; measurement; states/matter move through space and time (SUPPORTED); relationships determine state of existence.",
+   "status": [
+    "FRAMEWORK RESULT",
+    "SUPPORTED",
+    "HYPOTHESIS"
+   ],
+   "title": "Fact chain",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-02",
+   "note": "Photon leg DERIVED; singularity leg DERIVED (GR); stored energy OBSERVED.",
+   "status": [
+    "FRAMEWORK RESULT",
+    "DERIVED",
+    "OBSERVED"
+   ],
+   "title": "Time / motion / stored energy distinction",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-03",
+   "note": "Transition phases are B-objects. Energy state-vs-operator tension: OPEN (bridge 4).",
+   "status": [
+    "FRAMEWORK RESULT",
+    "OBSERVED"
+   ],
+   "title": "The 6: 3 states of matter + 3 transition phases",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-04",
+   "note": "Generations 1,7,19,37 = 3g(g+1)+1; vesica sqrt(3); epsilon = (sqrt(3)-sqrt(2))^2.",
+   "status": [
+    "DERIVED"
+   ],
+   "title": "Flower of Life timeline",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-05",
+   "note": "6 lenses/circle, 3 opposite pairs DERIVED; Mobius running + pyramidal mapping HYPOTHESIS.",
+   "status": [
+    "DERIVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Vesica lenses, 3 Mobius lines",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-06",
+   "note": "2D flat figure; 3D pole-to-pole stretch or propagation.",
+   "status": [
+    "FRAMEWORK RESULT"
+   ],
+   "title": "2D / 3D definitions",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-07",
+   "note": "E=hf leg and ozone Chapman cycle checked; chain as one circuit HYPOTHESIS.",
+   "status": [
+    "DERIVED",
+    "OBSERVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Energy circuit",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-08",
+   "note": "Interlock OBSERVED; lungs = exchange boundary B; strip mapping HYPOTHESIS.",
+   "status": [
+    "OBSERVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Body Mobius circuits (respiratory, vascular)",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-08b",
+   "note": "Body triad OBSERVED; every-scale driver HYPOTHESIS; Murray's law OBSERVED across fields.",
+   "status": [
+    "OBSERVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Triad of networks (respiratory, vascular, neural)",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-08c",
+   "note": "Alpha binding 28.3 MeV; 4p->He+26.7 MeV; 3alpha->C12+7.27 MeV; EEG bands; helium-cooled readout.",
+   "status": [
+    "OBSERVED"
+   ],
+   "title": "Helium relationship; neural network output",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-09",
+   "note": "Light leg DERIVED (GR); knot/compression/twist HYPOTHESIS; seed amount at horizon OPEN (bridge 2).",
+   "status": [
+    "DERIVED",
+    "HYPOTHESIS",
+    "OPEN"
+   ],
+   "title": "Horizon as transition state and topological knot",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-10",
+   "note": "Hubble ratio 1.0837; standard account ~5.41x unseen/seen matter.",
+   "status": [
+    "HYPOTHESIS"
+   ],
+   "title": "Hubble tension (lens); dark matter (invented patch)",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-11",
+   "note": "Universal claim HYPOTHESIS; method = the Engine, FRAMEWORK RESULT; ledger OPEN (bridge 7).",
+   "status": [
+    "HYPOTHESIS",
+    "FRAMEWORK RESULT"
+   ],
+   "title": "Cross-field invariants finding (2-3 per field)",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-12",
+   "note": "Casimir boundary force; 10^120 vacuum mismatch (application HYPOTHESIS); web fractions; 71% ocean cover; 65,000 km ridge system.",
+   "status": [
+    "OBSERVED",
+    "DERIVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Vacuum forces; cosmic web; Earth water and cracks",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-13",
+   "note": "Seed bottleneck biology OBSERVED; breath/heartbeat cycle counts OBSERVED; black-hole leg OPEN via HE-09.",
+   "status": [
+    "HYPOTHESIS",
+    "OBSERVED"
+   ],
+   "title": "System cycles at the personal scale",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-14",
+   "note": "~1,000 km^3/yr groundwater; 21/37 aquifers past tipping points; energy system ~40% efficient, ~380 EJ wasted 2023.",
+   "status": [
+    "OBSERVED"
+   ],
+   "title": "Planetary bleeds: groundwater; wasted electrical output",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-15",
+   "title": "The run loop (canonical operating cycle)",
+   "note": "Measure from the observer's center; use only probable truths or facts; identify and compare variants to find the invariant; plug it in to see if it works in reality; adjust if necessary or add surrounding variants; measure again accepting only known or provable truth; repeat. Steps 2 and 6 are gates: probable truths may enter, only known/provable truth is accepted out. The v1.3 13-step pipeline is audit scaffolding around this cycle; v2 implements the loop directly.",
+   "status": [
+    "FRAMEWORK RESULT"
+   ],
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-16",
+   "title": "Energy recirculation: carrier loops, energy cascades (candidate invariant, run 2026-10-29)",
+   "note": "Engine run on the energy problem (core/energy.py, run_energy.py; transcript docs/run-energy-2026-10-29.txt). Executable checks PASS: variant separation (nature ratios 5.67-999 vs human system 0.55, the only sub-1 entry), partner rule (F > 0.5 exactly when a receiving partner sits at the output boundary, 4 of 4 metered installations), circulation exchange balance (20 = 17 + 3 L/day), ATP carrier cycle (~600 cycles/day). Candidate invariant v1 wording (no leg terminates in the void) took a designed miss: Earth radiation balance returns ~100% of through-flowing energy to space; closure belongs to carriers/media, not energy. Refined candidate v2 (analyst, unconfirmed): the carrier loops internally and exchanges with the next scale only at designated boundaries; energy cascades and is harvested at each grade step by a receiving state; humanity runs single-pass carriers and one unharvested grade fall (F = 0.355). Governor graded all of it DEFER (internal evidence only). Status stays HYPOTHESIS pending framework ruling and independent evidence.",
+   "status": [
+    "HYPOTHESIS"
+   ],
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "HE-17",
+   "title": "Dimensional setting defined: 4 vectors; 6 degrees of movement (framework author, 2026-10-29)",
+   "note": "Definitions given by the framework author (Mitch Hoppe) 2026-10-29, closing the open definitional seam in the M4 author response. 4 vectors: the state address (X, Y, Z, K) on the Cartesian grid onto which the flower maps; every state/node carries a 4-vector address. 6 degrees of movement: movement along the 3 Mobius strips, each strip one state-kind from the operator definition (states of matter; states of energy; transition states), traversable in 2 directions: 3 x 2 = 6. Author's standing caution, entered with the definitions: the flat flower connects 6-fold (2D kissing number 6), but the kissing number in 3D packs 12 around a sphere; how the connections are actually made is to be checked against cellular structure and crystal growth structure (coordination 12 in close-packed crystals). That check is OPEN (bridge 9). Author's K extension: K can also be used by light-existing beings (his example: Muse) as a way to use coordinates and time to navigate points through time, and, in his hedged words, 'I'm guessing vectors.' Status FRAMEWORK RESULT (operating definitions, author's ruling); K navigation extension HYPOTHESIS pending the author's further details, which he has offered to supply.",
+   "status": [
+    "FRAMEWORK RESULT",
+    "HYPOTHESIS"
+   ],
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  }
+ ],
+ "register_items": [
+  {
+   "id": "REG-1",
+   "note": "Planck density ceiling 5.155e96 kg/m^3 DERIVED; physical floor claim HYPOTHESIS.",
+   "status": [
+    "HYPOTHESIS",
+    "DERIVED"
+   ],
+   "title": "Singularities / node floor",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "REG-2",
+   "note": "Worked item by item in this register.",
+   "status": [
+    "FRAMEWORK RESULT"
+   ],
+   "title": "Unifying quantum physics and GR (central claim)",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "REG-3",
+   "note": "Shared hbar*c stick restatement DERIVED; compression/boundary mechanisms HYPOTHESIS.",
+   "status": [
+    "DERIVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Gravity / electromagnetism, one language",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "REG-4",
+   "note": "NOT SOLVED. Formula as written REFUTED (136.568); pi-sum 137.036304 DERIVED; solving condition: different measurement method, OPEN.",
+   "status": [
+    "HYPOTHESIS",
+    "REFUTED",
+    "OPEN"
+   ],
+   "title": "Fine-structure constant",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "REG-5",
+   "note": "Pell invariant DERIVED as mathematics; physical resolution claim HYPOTHESIS.",
+   "status": [
+    "DERIVED",
+    "HYPOTHESIS"
+   ],
+   "title": "Scale transitions (epsilon/eta ladder)",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "REG-6",
+   "note": "R_s/l_P=2n; T_H/T_P=1/(8 pi n); S_BH/k_B=4 pi n^2; R_s*T_H invariant.",
+   "status": [
+    "DERIVED"
+   ],
+   "title": "Black-hole boundary thermodynamics",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  },
+  {
+   "id": "REG-7",
+   "note": "Added 2026-10-29 on framework author approval of the hierarchy draft. alpha_G=(m/m_P)^2 table DERIVED; why masses << m_P OPEN; mechanism HYPOTHESIS.",
+   "status": [
+    "DERIVED",
+    "OPEN",
+    "HYPOTHESIS"
+   ],
+   "title": "Hierarchy problem",
+   "address": {
+    "X": null,
+    "Y": null,
+    "Z": null,
+    "K": null
+   },
+   "k_note": "K unassigned in the source data; K is carried as data and changes only on independent evidence (governor-enforced)."
+  }
+ ],
+ "open_bridges": [
+  "1. Flower ring number -> ladder step conversion rule.",
+  "2. Seed-like amount at a horizon, defined.",
+  "3. Fine-structure: psi definition, 3 Pell steps, alternative measurement method.",
+  "4. Energy as ladder state vs energy as transition operator.",
+  "5. r_0 = 0.860 fm source (CODATA proton charge radius ~0.8414 fm).",
+  "6. UTT regime anchors miss whole ladder steps (miss logged, not adjusted).",
+  "7. Per-field invariants ledger for HE-11 not yet built.",
+  "8. Register items still OPEN pending framework S, B, mismeasurement: dark energy, measurement problem, matter-antimatter asymmetry, arrow of time.",
+  "9. Connection structure at the wrapped (3D) flower: 6-fold movement on the flat flower vs 12-fold kissing/coordination in spheres, cells and crystals; to be checked against cellular structure and crystal growth structure (author's direction, 2026-10-29)."
+ ],
+ "caveats": [
+  {
+   "id": "CAV-M4",
+   "attached_to": "HE-17",
+   "text": "M4 null-test caveat, carried from the v2 build spec (section 1) as data attached to the dimensional-setting claim it qualifies. Full wording lives in the audit record.",
+   "author_response": null,
+   "note": "Standing slot for the framework author's response: unfilled."
+  },
+  {
+   "id": "CAV-P5",
+   "attached_to": "cube geometry (invariants: cube_volume_384sqrt6)",
+   "text": "P5 volume footnote, carried from the v2 build spec (section 1) as data attached to the cube-volume check it qualifies. Full wording lives in the audit record.",
+   "author_response": null
+  },
+  {
+   "id": "CAV-HUBBLE-BOUNDARY",
+   "attached_to": "REG-3 / HE-10 (Hubble item)",
+   "text": "Boundary-category ruling (the author's): the Hubble discrepancy is assigned to the boundary category - a lens difference between the two measurement regimes - not to the contents within either measurement. Standing HYPOTHESIS.",
+   "author_response": "Ruled by the author (assembly section 8)."
+  }
+ ],
+ "reading_grammar": {
+  "status": "CANDIDATE (worksheet of 2026-10-31; awaiting the author's rulings item by item)",
+  "address": "S = (X, Y, Z, K): X, Y, Z spatial; K the scale/tier index (author's definitions, FRAMEWORK RESULT)",
+  "operator": "H(S, B, T) = S' - an application, never an addition",
+  "boundary": "smart filter / processor: a selective interface that evaluates what crosses, holds a gradient, can change the state of what it passes, and can refuse (author's refined definition, accepted 2026-10-31, FRAMEWORK RESULT)",
+  "strips": [
+   "matter",
+   "energy",
+   "transition"
+  ],
+  "degrees": "3 strips x 2 directions (outbound, return) = 6 degrees of movement",
+  "inlays_are_readings": true,
+  "energy_inlays": [
+   "kinetic",
+   "thermal",
+   "electrical",
+   "chemical",
+   "radiant",
+   "nuclear/binding"
+  ],
+  "transition_marks": [
+   "accepted",
+   "refused",
+   "return",
+   "branch"
+  ],
+  "sequence": "carried by path position on the traced flower stroke (arc count), never by clock time, and never as part of the address"
+ },
+ "open_flags": {
+  "seed_axis_compass_ends": {
+   "status": "OPEN",
+   "assignment": null,
+   "note": "Which compass end of the north-south seed axis takes eps and which takes eta has never been stated. No assignment is encoded. The pair's arithmetic is identical read from either end; this ruling blocks nothing but the final drawing's labels."
+  },
+  "cube_six_vs_strip_six": {
+   "status": "OPEN",
+   "cube_faces": 6,
+   "strip_degrees": 6,
+   "identity": "OPEN",
+   "note": "Two distinct sixes carried as two: the derived cube's six faces (grounded by the author in the a-b-c relationships) and the six degrees of movement (3 strips x 2 directions). Same count does not establish same mechanism."
+  },
+  "generations_equal_k_steps": {
+   "status": "OPEN",
+   "link_status": "CANDIDATE",
+   "note": "Whether flower generations are exactly K's steps on the timeline map is a candidate link (worksheet ruling item 7), flagged, not asserted. Separately on record: no standing rule converts flower ring number to ladder step (assembly open item 9); Gemini's sigma(K) = eta^K remains a candidate for the author's ruling, and the claim that integer K is derivable from the seed alone stands REFUTED for that route."
+  },
+  "z_stepping_rule": {
+   "status": "OPEN",
+   "grid_fact": "DERIVED: in the derived cube, each spatial axis is put on the [eps, eta] interval around the center 5 - the flat cell and the solid cell alike.",
+   "map_question": "OPEN: what sets a state's Z (depth reading) when reading the map - stepped from the center 5 in the same signed steps as X and Y, or set some other way - is not in the record and is not asserted.",
+   "note": "The grid fact and the open map-reading question are distinct items and are carried distinctly."
+  }
+ },
+ "regression_history": {
+  "source": "Adversarial audit of v1 (2026-10-29) and the v2 build spec, section 5.",
+  "audit_attacks_now_regression_tests": [
+   "wrong Pell generator",
+   "h in place of hbar in the Planck products",
+   "reduced Planck mass substituted without declaration",
+   "corrupted graph status (illegal label, e.g. PROVEN)",
+   "empty-invariant hop",
+   "a Governor decision attempted from a bare word"
+  ],
+  "supersessions": "Supersessions P1-P9 were applied to v1 on 2026-10-29; P9's bridge-7 sub-item (the per-field invariants ledger for HE-11, not yet built) stands unmatched. Itemised P1-P9 text lives in the audit record; it is not re-stated here."
+ }
+}
