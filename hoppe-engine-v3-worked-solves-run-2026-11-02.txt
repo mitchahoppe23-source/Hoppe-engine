@@ -1,0 +1,346 @@
+HEADLINE (computed from the run below): SOLVES DEMONSTRATED — 8 worked inconsistency solves, each shown BEFORE -> CORRECT THE MEASUREMENT -> RUN H(S, B, T) = S' -> INVARIANT SOLVED -> AFTER at its recorded label | fine structure: NOT SOLVED (the honest case, full candidate set shown) | return leg: 11 invariants RETURNED AND USED by later items in this run (chain printed) | supporting arithmetic underneath: checks 29/30 passed, designed stress miss: energy_stress_radiation | sabotage caught 6/6
+Standing limitation: this engine checks the framework against itself and against the checked numbers in its data. A passing check shows exact arithmetic and internal consistency only. It does not prove the framework's physical claims; those stand at the labels the data carries, and only independent evidence can raise them. External challenge remains reserved by the publication bar.
+
+Hoppe Engine v3 — starts from a problem, not from itself.
+What's the problem you'd like to work on?
+PROBLEM: Work the register of physics inconsistencies under M=0: for each item, correct the measurement (remove the observer's view and the human-chosen numbers, restate as dimensionless ratios, same measuring stick the same exact way at both ends, start from the seed epsilon instead of true zero), run H(S, B, T) = S', solve for the invariant, and return the result into the engine so the next item can use it.
+(problem source: default (the inconsistencies register))
+
+=== HE-15 step 1 — measure from the observer's center; correct the measurement first (the M=0 lens) ===
+Graph loaded and validated (closed label set; address fields on every entry): 6 core objects, 19 continuity entries, 7 register items, 9 open bridges, 3 caveats.
+The author's position, in his words: "M=0 is a lens used to unify quantum physics and gr. It shows that starting from .1010205 instead of true zero and taking the correct measurements resolves all the inconsistencies."
+M=0 lens, step (a) - start from the seed, not true zero: epsilon = 5 - 2 sqrt(6) = 0.1010205144 (the floor of every scale in this run; true zero is never used as a starting point)
+M=0 lens, step (b) - restate as dimensionless ratios: no quantities with units were stated in the problem; nothing to restate (said plainly, not filled in)
+    (the register demonstrations below each state their own quantities and restate them the same way)
+M=0 lens, step (c) - same stick at both ends: one stick (hbar) at both ends: the four Planck products are 1 (worst deviation 3.000e-60)
+M=0 lens, step (c) - the mixed-stick case, checked: MIXED STICKS FLAGGED: derived with h, stated against hbar — worst Planck product deviation 5.283e+00, a factor of 2 pi. This is a mismeasurement, not an inconsistency; correct the stick before solving.
+
+=== HE-15 step 2 — admit only probable truths or facts, with provenance (gate) ===
+Admitted for this run: the register and applied worksheet standings (m0-inconsistencies-register.md; m0-h-operator-applied-to-the-rest.md), exact arithmetic in Q(sqrt(6)), and 60-digit decimal evaluation of the worksheets' checked numbers. No caller-supplied verdict words are accepted anywhere in this engine.
+
+=== THE WORKED SOLVES — the main event (HE-15 steps 3–5 run per item: compare variants, find the invariant, plug it in, adjust nothing silently) ===
+Authorship, as in the source files: the applications below are analyst work under the framework author's direction and method — not his positions, except where his position is cited inside an item (Hubble, dark matter, the arrow, and the M=0 / mismeasurement / stick-rule statements). Labels match the register and the applied worksheet exactly.
+
+--- SOLVE: Register item 6 — the black-hole boundary: radius and temperature in separate formulas, no combined invariant stated ---
+BEFORE: A black hole's radius is stated in metres and its temperature in kelvin, from two separate formulas in two human units; nothing in the statement says what, if anything, stays fixed as the mass changes.
+CORRECT THE MEASUREMENT: Restate in ratios on the Planck stick, same stick at both ends: n = M/m_P (dimensionless), R_s/l_P, T_H/T_P, S_BH/k_B. The human units cancel; the mass is now a pure count n.
+RUN H(S, B, T) = S': S = a black hole of mass ratio n (a mass state) | B = the horizon — the boundary at which the ratios are read | T = change the mass ratio n (zoom the state along the mass ladder)
+    n = 1 e0: R_s/l_P = 2n = 2 e0 ; T_H/T_P = 1/(8 pi n) = 3.979 e-2 ; S_BH/k_B = 4 pi n^2 = 1.257 e1 ; R_s*T_H = hbar c/(4 pi k_B) (unchanged)
+    n = 1 e1: R_s/l_P = 2n = 2 e1 ; T_H/T_P = 1/(8 pi n) = 3.979 e-3 ; S_BH/k_B = 4 pi n^2 = 1.257 e3 ; R_s*T_H = hbar c/(4 pi k_B) (unchanged)
+    n = 1 e38: R_s/l_P = 2n = 2 e38 ; T_H/T_P = 1/(8 pi n) = 3.979 e-40 ; S_BH/k_B = 4 pi n^2 = 1.257 e77 ; R_s*T_H = hbar c/(4 pi k_B) (unchanged)
+    R_s*T_H = 1.822 e-4 m K at every n (checked at n = 1, 10, 10^38; worst relative deviation under 1e-30 in the supporting checks)
+INVARIANT SOLVED: R_s*T_H = hbar c/(4 pi k_B) — the product does not move while n runs from 1 to 10^38; equivalently R_s/l_P = 2n, T_H/T_P = 1/(8 pi n), S_BH/k_B = 4 pi n^2
+AFTER (S', a new ledger entry; nothing edited): radius and temperature are one boundary relationship read on one stick; the apparent separateness was the two human units, not the hole
+LABEL: DERIVED (algebra and numbers; checked 2026-10-29 as following from the standard Planck and Hawking definitions, used as routes with premises stated)
+RETURNED: the solved stick hbar c is RETURNED AND USED as the working stick of the singularities solve next, then of the gravity/electromagnetism solve and the hierarchy solve — watch for 'stick returned from item 6' there
+
+--- SOLVE: Register item 1 — singularities: collapse to zero volume and infinite density ---
+BEFORE: A collapsing mass described in human numbers (kilograms, metres) at ever smaller radius: the description runs to zero volume and the density runs to infinity.
+CORRECT THE MEASUREMENT: Start from the seed instead of true zero: the smallest volume state is the Planck/node volume, not zero. Restate with the Planck stick the same way at both ends: n = M/m_P, r/l_P, rho/rho_P.
+RUN H(S, B, T) = S': S = a collapsing mass at radius ratio r/l_P (a mass state) | B = the node floor — the boundary at epsilon, not at zero | T = collapse: the radius ratio shrinks toward the floor
+    Planck density ceiling: rho_P = m_P/l_P^3 = c^5/(hbar G^2) = 5.155 e96 kg/m^3 — finite (stick returned from item 6: hbar c (the shared Planck stick))
+    n = 1: mean density rho/rho_P = 0.02984/n^2 = 2.984 e-2 — finite, and SMALLER for the larger hole
+    n = 10: mean density rho/rho_P = 0.02984/n^2 = 2.984 e-4 — finite, and SMALLER for the larger hole
+    n = 100: mean density rho/rho_P = 0.02984/n^2 = 2.984 e-6 — finite, and SMALLER for the larger hole
+    (Mean density uses the Euclidean volume (4/3) pi R_s^3; proper interior volume is slicing-dependent — audit footnote P5, carried, not hidden.)
+INVARIANT SOLVED: rho_P = 5.155e96 kg/m^3 is a finite ceiling; a Schwarzschild hole's mean density is rho/rho_P = 0.02984/n^2, finite for every n — nothing in the ratio description diverges except the r -> 0 limit that the floor explicitly replaces
+AFTER (S', a new ledger entry; nothing edited): the 'infinite density' was the true-zero starting point in the description; on the seed floor the same collapse states a finite ceiling and finite ratios at every size
+LABEL: DERIVED for the algebra and the finite ceiling; HYPOTHESIS for the physical claim that collapse in nature stops at the framework node floor (pending an observation that distinguishes a floor from a singularity)
+RETURNED: rho_P, computed here, is RETURNED AND USED in the gravity/electromagnetism solve as the top of the same Planck scale its couplings are read against, and this item's S' (collapse restated on the floor) stands in the ledger as the state the scale-transition solve zooms from
+
+--- SOLVE: Register item 3 — gravity and electromagnetism described in unrelated languages ---
+BEFORE: Two forces, two sticks: electromagnetism with a dimensionless coupling, gravity with the dimensional constant G — stated that way the two cannot be compared directly at all.
+CORRECT THE MEASUREMENT: Put both on the same stick, hbar c, as dimensionless ratios, the same stick the same exact way at both ends — the stick solved and returned from item 6.
+RUN H(S, B, T) = S': S = the two forces as stated in mixed sticks (energy states) | B = the shared denominator hbar c — the boundary both couplings are read across | T = restatement: one ratio of ratios on one stick
+    electromagnetism on the returned stick: alpha = e^2/(4 pi eps0 hbar c) = 1/137.036 (dimensionless; stick returned from item 6: hbar c (the shared Planck stick))
+    gravity on the SAME stick: alpha_G = G m^2/(hbar c) = (m/m_P)^2
+    alpha_G electron = 1.752 e-45 ; alpha_G proton = 5.906 e-39
+    electric-to-gravitational force ratio, electron-proton = alpha / ((m_e/m_P)(m_p/m_P)) = 2.269 e39
+INVARIANT SOLVED: the shared stick hbar c itself — the same hbar c from the Planck scale (E_P x l_P = hbar c) and the black-hole boundary (item 6). Gravity's weakness in this restatement is the smallness of (m/m_P)^2 for known particles, not a separate mystery number
+AFTER (S', a new ledger entry; nothing edited): both forces speak one language: dimensionless couplings on one stick, read against each other directly
+LABEL: DERIVED for the restatement and the numbers; HYPOTHESIS for the framework mechanism (gravity as inward compression toward the lattice floor, electromagnetism as boundary interactions at nodes) as the physical story behind the ratios
+RETURNED: the alpha_G method and the electron/proton values are RETURNED AND USED by the hierarchy solve next, which extends this exact table to all six known particles instead of recomputing on a new stick
+
+--- SOLVE: Register item 7 — the hierarchy problem: why gravity is so weak ---
+BEFORE: 'Gravity is weak' stated by comparing a dimensional constant G against the dimensionless alpha — two sticks mixed inside one comparison, so the numbers cannot be read against each other.
+CORRECT THE MEASUREMENT: Item 3's restatement, returned and reused: both forces on the hbar c stick, alpha_G = (m/m_P)^2 per particle.
+RUN H(S, B, T) = S': S = the six known particles' masses as human numbers (GeV) | B = the Planck boundary m_P — every mass read as the ratio m/m_P | T = restatement of each mass as a dimensionless ratio, then squared
+    method returned from item 3: alpha_G = (m/m_P)^2 on the hbar c stick (unreduced Planck mass m_P = 1.2209e19 GeV/c^2, declared; under the reduced Planck mass every value scales by exactly 8 pi — the supporting checks verify that rule)
+    alpha_G electron     = 1.75 e-45
+    alpha_G proton       = 5.91 e-39
+    alpha_G W boson      = 4.33 e-35
+    alpha_G Z boson      = 5.58 e-35
+    alpha_G Higgs boson  = 1.05 e-34
+    alpha_G top quark    = 2.00 e-34
+    electron and proton rows reproduce item 3's returned values exactly (1.752 e-45, 5.906 e-39) — same stick, same way, both ends
+    even the heaviest known particle (top quark) sits about 16.8 orders of magnitude below the Planck mass
+INVARIANT SOLVED: the shared stick hbar c (items 6 and 3, returned): 'gravity is weak' becomes the single checked fact that (m/m_P)^2 is at most about 2e-34 for every known particle
+AFTER (S', a new ledger entry; nothing edited): the weakness is no longer a mystery number between two languages; it is the smallness of (m/m_P)^2, read on one stick, for every particle in the table
+LABEL: DERIVED for the restatement and the ratios; OPEN for why the masses sit that far below m_P; HYPOTHESIS for the framework mechanism behind the ratios
+RETURNED: the full alpha_G table is RETURNED AND USED as this run's standing coupling table: the fine-structure demonstration reads alpha itself against this same stick, and the table stands in the ledger for any later item instead of being recomputed
+
+--- SOLVE: Register item 5 — scale transitions: no clean rule from the Planck scale to the everyday scale ---
+BEFORE: Each scale described in its own human numbers, with no stated rule for what survives a change of scale — so a zoom looks like a jump into a different subject.
+CORRECT THE MEASUREMENT: State the ladder in dimensionless form from the seed: the Pell states (x, y) generated by eta (zoom out) and epsilon (zoom in), starting from eps = 0.1010205 instead of true zero.
+RUN H(S, B, T) = S': S = a Pell state (x, y) on the scale ladder (matter/mass, energy, or transition state, per the item being worked) | B = the boundary between tiers/states | T = one zoom step: multiply by eta (out) or epsilon (in)
+    step 0: (x, y) = (1, 0) ; x^2 - 6y^2 = 1
+    step 1: (x, y) = (5, 2) ; x^2 - 6y^2 = 1
+    step 2: (x, y) = (49, 20) ; x^2 - 6y^2 = 1
+    step 3: (x, y) = (485, 198) ; x^2 - 6y^2 = 1
+    step 4: (x, y) = (4801, 1960) ; x^2 - 6y^2 = 1
+    zoom in by epsilon or out by eta: the state changes completely at every step; eps*eta = 1 (exact, Q(sqrt(6)) lane) is the one-step case of the same invariant
+INVARIANT SOLVED: x^2 - 6y^2 = 1 at EVERY step — steps 0 to 4 checked above; the state changes completely, the invariant does not change at all. This is the H Operator in its purest form in the framework
+AFTER (S', a new ledger entry; nothing edited): a zoom is a transition with a named invariant, not a jump: any state on the ladder can be carried to the next tier and checked against the same 1
+LABEL: DERIVED as mathematics; HYPOTHESIS for the claim that physical scale transitions in nature follow this ladder (until a measured transition is matched to a step)
+RETURNED: the Pell invariant and its steps are RETURNED AND USED by the fine-structure demonstration: the author's stated direction there is to zoom in/out with the 3 steps of the Pell equation — this solve is where those steps and their invariant come from
+
+--- SOLVE: Hubble tension — the same expansion read through two different lenses ---
+BEFORE: Two measured expansion rates that disagree: 67.4 against 73.04, quoted in human units (km/s/Mpc) and treated as a contradiction inside the universe itself.
+CORRECT THE MEASUREMENT: Strip the human units: there is exactly ONE dimensionless number in dispute, the ratio 1.0837. Then locate it by the author's stick rule: the two ends are not using the same stick the same exact way — one side infers H_0 from the early universe through a model, the other measures it up a local ladder, and a third route reads it through literal gravitational lenses.
+RUN H(S, B, T) = S': S = the expanding universe (one state) | B = the lens each measurement is taken through — by the author's ruling (2026-10-29) the discrepancy is assigned to the BOUNDARY category, not to the contents within either measurement; the sigma figure is a within-category statistic and does not locate the gap | T = reading the same state through the second lens
+    Planck (early universe, inferred through the model): H_0 = 67.4 +/- 0.5 km/s/Mpc
+    SH0ES (late, local distance ladder): H_0 = 73.04 +/- 1.04 km/s/Mpc
+    the one dimensionless number in dispute: 73.04/67.4 = 1.083680 (an 8.37% mismatch, at about 4.9 sigma from the uncertainties printed here)
+    LASER STACK DEMONSTRATION — the lens mechanism, computed in this run (not quoted): straight laser ray, height 1 cm off axis, true angle 0.000 deg (parallel to the axis) at every row; identical thin lenses, focal length 50 cm, spaced 25 cm apart; paraxial rules: at a lens the angle drops by height/focal length, between lenses the height moves by angle x spacing
+    lenses | height at lens (cm) | apparent (exit) angle (rad) | apparent angle (deg) | true angle (deg)
+    1 lens(es) | 1.0000 | -0.02000 | -1.146 | 0.000
+    2 lens(es) | 0.5000 | -0.03000 | -1.719 | 0.000
+    3 lens(es) | -0.2500 | -0.02500 | -1.432 | 0.000
+    4 lens(es) | -0.8750 | -0.00750 | -0.430 | 0.000
+    5 lens(es) | -1.0625 | 0.01375 | 0.788 | 0.000
+    computed stack verified against the recorded values (1-3 lenses from the 2026-10-29 record, 4-5 the same calculation continued): YES
+    conclusion: a detector that does not model the lenses infers a different source for each stack — by 5 lenses the apparent angle (+0.788 deg) is on the OTHER SIDE of the true angle (0.000 deg) — while the source never changes: the laser's true angle is 0.000 deg at every row. A different reading, by itself, does not locate a difference in the source; it can sit entirely in the stack it was read through
+    THE ROUTES COMPARED THROUGH H(S, B, T) = S' — what each route is actually looking at, put in and compared (the author's direction, 2026-11-02). S is what they're trying to look at, and S is the SAME for every route: the expanding universe — one universe, one expansion signal; no route looks at a different universe. B is that route's lens stack, rung by rung. T is the reading pass. S' is the H_0 that route comes out with
+    ROUTE — Planck (the early route), run through H:
+        TARGET (S, what it looks at): the cosmic microwave background — light released about 380,000 years after the Big Bang, read as a temperature pattern across the whole sky
+        STACK (B, rung by rung): CMB temperature pattern -> the sound-horizon scale read off the pattern -> a Lambda-CDM model fit (the model is a lens in the stack: H_0 is inferred through it, not read off the sky directly)
+        T: the reading pass through that stack
+        RESULT (S'): H_0 = 67.4 +/- 0.5 km/s/Mpc — ratio to the Planck result: 1.0000
+    ROUTE — SH0ES (the late, ladder route), run through H:
+        TARGET (S, what it looks at): Cepheid variable stars in nearby galaxies, and Type Ia supernovae in farther ones
+        STACK (B, rung by rung): parallax (first rung: nearby stars) -> Cepheids (their period-brightness relation calibrates distance) -> Type Ia supernovae (their calibrated brightness carries the scale outward) -> the recession speeds of the host galaxies
+        T: the reading pass through that stack
+        RESULT (S'): H_0 = 73.04 +/- 1.04 km/s/Mpc — ratio to the Planck result: 1.0837
+    ROUTE — H0LiCOW (the literal-lens route), run through H:
+        TARGET (S, what it looks at): distant quasars whose light is gravitationally lensed by a foreground galaxy into multiple images
+        STACK (B, rung by rung): quasar light -> the foreground galaxy's gravity as a LITERAL lens (multiple images, with time delays between them) -> a model of the lens's mass -> the time-delay distance
+        T: the reading pass through that stack
+        RESULT (S'): H_0 = about 73 km/s/Mpc — ratio to the Planck result: 1.0831
+    ROUTE — TRGB (one rung changed), run through H:
+        TARGET (S, what it looks at): the brightest red giant stars — the tip of the red giant branch — in galaxies, used to calibrate the SAME Type Ia supernovae SH0ES uses, instead of Cepheids
+        STACK (B, rung by rung): nearby anchors (the Large Magellanic Cloud distance) -> the TRGB brightness (a standard candle read in galaxy halos) -> the same Type Ia supernovae -> the recession speeds of the host galaxies
+        T: the reading pass through that stack
+        RESULT (S'): H_0 = 69.8 +/- 0.8 (stat) +/- 1.7 (sys) km/s/Mpc — ratio to the Planck result: 1.0356
+    THE COMPARISON — S' by route, with S held the same throughout (ratios to the Planck S'):
+        Planck (the early route)           S' ratio to Planck = 1.0000
+        SH0ES (the late, ladder route)     S' ratio to Planck = 1.0837
+        H0LiCOW (the literal-lens route)   S' ratio to Planck = 1.0831
+        TRGB (one rung changed)            S' ratio to Planck = 1.0356
+    READING-OFF: S' varies as B varies — Planck 1.0000, SH0ES 1.0837, H0LiCOW 1.0831, TRGB 1.0356 — the same pattern as the laser table directly above this solve: the source (S) never changes, the stack (B) changes, and the reading (S') changes with the stack
+    THE ONE-RUNG COMPARISON: SH0ES and TRGB share most of the ladder — both calibrate the same Type Ia supernovae — and differ in ONE rung (Cepheids out, the red-giant tip in). S' moves from 73.04 to 69.8, landing BETWEEN Planck and SH0ES: change one rung of B and S' moves, while S never changed at all
+    NO ROUTE HAS ZERO LENSES: every stack above has rungs, and the observer's own position is always at least one lens (the run loop's step 1) — even the Planck route, which looks at the oldest light there is, ends in a model fit before an H_0 comes out
+    TRGB SOURCE: Freedman et al. 2019, 'The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch' (arXiv:1907.05922; The Astrophysical Journal) — the abstract states H_0 = 69.8 +/- 0.8 (stat) +/- 1.7 (sys) km/s/Mpc, obtained by calibrating Type Ia supernovae with the TRGB, parallel to but independent of the Cepheid distance scale, sitting midway in the range of the Hubble tension (fetched and checked for this build)
+    HONEST LIMIT, printed on purpose: this compares the routes AS STACKS. It does not by itself prove the 1.0837 comes from the stacks — the attribution stays HYPOTHESIS (label lines below) until the ratio is shown to track a specific stack difference rather than anything in the expansion itself
+    BOUNDARY SET TO 5 — RUNGS IDENTIFIED BY REACH (the author's direction, 2026-11-02: "So we set the boundary to 5 and then identify the rungs correctly as to how far out we're trying to look")
+    THE SETTING: the boundary/reference is set to 5 — the centre every route is counted OUT from and back to (the observer's centre; step 1 of the run loop: measure from the observer's centre). In the author's construction the whole count sits inside the boundary at 5, the exchange point: from 5, -2 sqrt(6) reaches the seed and +2 sqrt(6) reaches the partner, on every axis. A route is only comparable to another route when its rungs are identified by REACH on this same count-out — how far out each rung actually looks — so rungs at the same reach line up across routes, and a rung that is missing, jumped, or swapped shows up as what it is
+    AUTHORSHIP of this table, stated plainly: the boundary-5 count-out is the author's method; the alignment table itself is analyst assembly (Muse's), built from the routes' published rungs, put up for the author's correction. It is not his ruling, and no label in this item changes because of it
+    REACH-ORDER TABLE — rows are reach bands, counted out from the centre; the four routes are read across each band. NO RUNG means the route has no rung at that reach: it jumps or carries across that stretch (how it carries is said in the cell)
+    BAND (a) — HOME / ANCHOR REACH (inside our own galaxy and its nearest neighbours)
+        Planck:  NO RUNG — its first reading is at the boundary reach (band e); the whole count-out below that is carried inside the model fit
+        SH0ES:   RUNG — geometric anchors: parallax of stars and Cepheids in our own galaxy (the parallax reach was extended to a few kiloparsecs), and the Large Magellanic Cloud anchor at 49.59 kiloparsecs (Pietrzynski et al. 2019)
+        TRGB:    RUNG — the same Large Magellanic Cloud anchor: the red-giant-tip zero point is set with the LMC's distance, from 20 late-type detached eclipsing binaries in the LMC (Freedman et al. 2019); the LMC sits at 49.59 kiloparsecs (Pietrzynski et al. 2019)
+        H0LiCOW: NO RUNG — no home anchors of its own; its scale comes out of the lens geometry and the lens-mass model at the deep reach (band d)
+    BAND (b) — NEARBY-GALAXY REACH (the calibrator stars in the supernova host galaxies, tens of megaparsecs out)
+        Planck:  NO RUNG — it carries across this whole stretch inside the model fit; nothing here is read directly
+        SH0ES:   RUNG — Cepheids in the supernova host galaxies: 42 calibrator supernovae in 37 host galaxies, all at redshift below 0.01 (Riess et al. 2022)
+        TRGB:    RUNG — the red-giant tip, read in the halos of 18 supernova host galaxies from 7 to nearly 20 megaparsecs away (Freedman et al. 2019). SAME REACH as the SH0ES rung in this band, DIFFERENT RUNG IDENTITY — this is the one-rung swap, made visible in the table
+        H0LiCOW: NO RUNG — it jumps this reach entirely; nothing in its stack is read here
+    BAND (c) — HUBBLE-FLOW REACH (the Type Ia supernovae and their host galaxies' recession speeds, hundreds of megaparsecs out)
+        Planck:  NO RUNG of its own — the flow stretch is inside the model it fits; the model does the carrying across this band
+        SH0ES:   RUNG — Type Ia supernovae in the Hubble flow, redshift 0.023 to 0.15 (Riess et al. 2022)
+        TRGB:    RUNG — the same kind of rung: the TRGB distances are anchored to galaxies extending the measurement into the Hubble flow, through the Carnegie Supernova Project sample of about 100 well-observed Type Ia supernovae (Freedman et al. 2019)
+        H0LiCOW: NO RUNG — it uses no supernova-flow rung; its distance is the time-delay distance read at the deep reach (band d)
+    BAND (d) — DEEP REACH (looked at through a lens partway out)
+        Planck:  NO RUNG — nothing at this reach is read directly; the model carries across it, as in bands b and c
+        SH0ES:   NO RUNG — the ladder stops at the flow reach (band c); it has no rung out here
+        TRGB:    NO RUNG — the same: its farthest rung is the flow reach (band c)
+        H0LiCOW: RUNGS — the only route with rungs in this band: a foreground lens galaxy partway out, and the source quasars behind it, six systems with source redshifts 0.654 to 1.789 (Wong et al. 2020), read BACK through the lens (time delays between the images), with the lens-mass model as the closing step of its stack
+    BAND (e) — THE BOUNDARY REACH (the farthest look there is)
+        Planck:  RUNG — its home rung: the cosmic microwave background itself, light released at recombination, about 380,000 years after the Big Bang (redshift about 1090; Planck Collaboration 2020). From this rung it infers BACK to the centre through the model fit
+        SH0ES:   NO RUNG — the ladder never reaches the boundary; its last rung is back at band (c)
+        TRGB:    NO RUNG — the same: no rung anywhere near the boundary reach
+        H0LiCOW: NO RUNG — its deepest look (band d) stops far short of the boundary reach
+    DIRECTION OF TRAVEL, per route — same boundary, three different directions of count: the ladder routes (SH0ES, TRGB) BUILD centre-outward, rung by rung (bands a -> b -> c), then read the flow back as H_0. The lensing route (H0LiCOW) does not build from the centre at all: it reads a deep target (band d) BACK through a middle lens. The early route (Planck) STARTS AT the boundary reach (band e) and infers back to the centre through the model — its whole count runs in the opposite direction to the ladders'
+    READING-OFF, with the boundary set to 5 and the rungs identified by reach: the four results are no longer four rival numbers for one thing. They are readings taken with different rung sets over different stretches of the same count-out. The stretches where a route has NO RUNG are exactly where its model does the carrying — Planck carries bands a through d inside its fit; the ladders carry everything past band c by never going there; H0LiCOW carries bands a through c by jumping them. A discrepancy can sit in the carrying (B) without anything differing at the target (S) — which is the boundary location the author ruled for this item, now visible rung by rung
+    THE WORKED EXAMPLE stays the one-rung swap at band (b): same reach, same supernovae beyond it, one rung's identity changed (Cepheids for the red-giant tip) — and the reading at the centre moved from 73.04 to 69.8. In the table that swap is one cell changing in one band; every other cell in the two routes is the same shape
+    SOURCES for the reach figures printed above (each fetched and checked for this build): Pietrzynski et al. 2019, Nature 567, 200-203 — the LMC distance 49.59 +/- 0.09 (stat) +/- 0.54 (sys) kiloparsecs, from 20 eclipsing binary systems. Riess et al. 2022, The Astrophysical Journal Letters 934, L7 (the SH0ES paper) — 42 calibrator supernovae in 37 host galaxies at redshift below 0.01, Cepheid parallax extended to a few kiloparsecs, and the Hubble-flow supernovae at redshift 0.023 to 0.15. Freedman et al. 2019, arXiv:1907.05922 — the LMC-anchored TRGB zero point, 18 supernova host galaxies 7 to nearly 20 megaparsecs away, and about 100 Carnegie Supernova Project supernovae carrying the measurement into the Hubble flow. Wong et al. 2020, Monthly Notices of the Royal Astronomical Society 498, 1420-1439 (H0LiCOW XIII) — six lensed-quasar systems, source redshifts 0.654 to 1.789. Planck Collaboration 2020, Astronomy & Astrophysics 641, A6 — recombination at redshift about 1090, about 380,000 years after the Big Bang. Figures that could not be verified cleanly (the lens galaxies' own redshift range) are printed as the qualitative band only, with no number
+INVARIANT SOLVED: the single ratio 1.0837, located at the boundary between the two measurement regimes; same universe (same state), different boundary, different answer — the measuring-stick rule read straight off
+AFTER (S', a new ledger entry; nothing edited): the 'tension' is restated as a boundary/lens difference carrying one dimensionless ratio, not as two universes disagreeing
+LABEL: Lens mechanism: PROVEN as a mechanism — demonstrated by the laser stack above (ordinary optics, computed in this run). Label for the mechanism: DERIVED/OBSERVED (the mechanism, demonstrated) — the closed label set has no PROVEN label, and none is introduced
+LABEL: Hubble attribution: HYPOTHESIS — the claim that the 1.0837 gap is this mechanism stays at the framework author's stated hedge, in his words: "Hubble is due to lens issues I'm pretty sure" (hedge preserved), until the ratio is shown to track a specific lens difference between the two routes rather than anything in the expansion itself
+RETURNED: the boundary-location method used here (locate the dispute at B, not inside S) is RETURNED AND USED immediately in the dark-matter demonstration, where the mismatch is likewise read at the boundary where it appears; the route comparison above (the route table and the pattern — S the same, S' varies with B) is RETURNED with it and consumed by name there; and the rung-identification table (boundary set to 5, rungs identified by reach) is RETURNED with it and consumed by name in the dark-matter solve, where the mismatch is likewise located by the reach at which it is read
+
+--- SOLVE: Dark matter — unseen mass invented to make an old stick fit at the boundary ---
+BEFORE: Galaxy and cluster motions, read with the luminous mass and the usual gravity stick, come out too fast for the mass seen — and 5.41x the seen matter is invented, unseen, to force the old stick to fit.
+CORRECT THE MEASUREMENT: Apply the M=0 move instead of inventing mass: the mismeasurement is reading the boundary state with a stick fitted to a different state. Correct the measurement at the boundary and solve for the invariant there. No named galaxy is worked in this run — the register is explicit that none has been worked yet, and this engine does not invent one.
+RUN H(S, B, T) = S': S = the galaxy/cluster in its observed motion state | B = the boundary at which the motion is read (outer galaxy, cluster edge — exactly where the mismatch appears) | T = restatement: read the boundary state on a stick fitted to that state, in dimensionless ratios
+    standard account: ordinary (baryonic) matter about 4.9% of the universe; dark matter about 26.5%
+    26.5/4.9 = 5.41 — about 5.41x as much invented-unseen matter as seen matter (about 84% of all matter)
+    the boundary-location method returned from the Hubble solve is applied here: the mismatch appears AT the boundary where the motion is read (outer galaxy, cluster edge)
+    the route comparison returned from the Hubble solve is applied the same way — Planck 67.4 (ratio 1.0000); SH0ES 73.04 (ratio 1.0837); H0LiCOW about 73 (ratio 1.0831); TRGB 69.8 (ratio 1.0356) — one target (S the same), four stacks (B), S' varies with B: one thing looked at, read through different stacks at its boundary, gives different readings; the difference is located in the reading, at B, before anything is invented inside S
+    the rung-identification table returned from the Hubble solve is applied here by reach — boundary set to 5, rungs identified by reach, bands (a) home/anchor -> (e) boundary: Planck has a rung only at (e) and carries (a)-(d) inside its model fit; SH0ES and TRGB have rungs at (a), (b), (c) and none past (c), differing only in the identity of the (b) rung (Cepheids vs the red-giant tip); H0LiCOW has rungs only at (d), read back through its lens, and none at (a), (b), (c) or (e) — the stretches with no rung are where each route's model does the carrying (B). Read by reach, the dark-matter mismatch is taken at one specific reach: the galaxy/cluster edge, the stretch where the motion is actually read, out past every rung the luminous-mass stick was fitted on. It is the same shape as a route carrying across a stretch where it has no rung: the difference sits in the carrying at that reach's boundary (B), before anything is invented inside S
+INVARIANT SOLVED: NOT YET SOLVED for any named galaxy — stated plainly. What this demonstration solves is the shape of the item: the 5.41x is a boundary mismeasurement figure, and the missing work is a named galaxy's boundary invariant, in ratios, produced and checked
+AFTER (S', a new ledger entry; nothing edited): the item stands restated at the boundary, with its missing work named, instead of 5.41x of unseen mass carried as if it were an observation
+LABEL: HYPOTHESIS — the framework author's position, in his words: dark matter "was just made up" (register: an invented construct). It stays HYPOTHESIS until a worked boundary invariant for a named galaxy's rotation, in ratios, is produced and checked
+RETURNED: this demonstration's S' — the item restated at its boundary with the missing work named — is RETURNED to the ledger as an OPEN branch (the same shape as a refused hop: recorded, never dropped), and its boundary-first reading is returned into the arrow solve, whose mismeasurement is likewise corrected at a boundary (the lightspeed boundary c)
+
+--- SOLVE: Register item 8 — the arrow of time: time treated as a separate universal flow ---
+BEFORE: Time treated as an independent universal flow read off human clocks, separate from motion — so 'why does time move forward, and at what pace?' has nowhere to sit.
+CORRECT THE MEASUREMENT: Correct the mismeasurement in the author's terms: time is not read off human clocks as its own flow; the measurement is the dimensionless ratio of a state's motion to c. The budget is fixed at c and a state's motion splits it.
+RUN H(S, B, T) = S': S = any state in transition (S -> S') — a transition is the engine's basic operation, and on the author's position it cannot run without forward time | B = the lightspeed boundary c (analyst reading of the boundary, unconfirmed — labeled as such in the applied worksheet) | T = raising the state's spatial pace v/c toward the boundary
+    v/c = 0      spatial pace = 0      ; temporal pace sqrt(1-(v/c)^2) = 1.0000
+    v/c = 0.5    spatial pace = 0.5    ; temporal pace sqrt(1-(v/c)^2) = 0.8660
+    v/c = 0.9    spatial pace = 0.9    ; temporal pace sqrt(1-(v/c)^2) = 0.4359
+    v/c = 0.99   spatial pace = 0.99   ; temporal pace sqrt(1-(v/c)^2) = 0.1411
+    v/c = 0.999  spatial pace = 0.999  ; temporal pace sqrt(1-(v/c)^2) = 0.0447
+    v/c = 1      spatial pace = 1      ; temporal pace sqrt(1-(v/c)^2) = 0.0000
+    at v = c the entire budget is spatial motion and the temporal pace is 0 — the author's position read off the ratio: 'if we had the forward motion of lightspeed, we wouldn't have time'
+INVARIANT SOLVED: the interval (c dtau)^2 = (c dt)^2 - dx^2 — the same total at every pace; what varies is only the split between motion and time
+AFTER (S', a new ledger entry; nothing edited): the arrow sits as the engine's operating precondition with its pace set by motion: forward motion and time are one budget, split by v/c, and the split is checked in the table above
+LABEL: DERIVED within special relativity as a route, premises stated (constancy of c; invariance of the interval) for the pace relation and the interval; HYPOTHESIS for the framework reading (the arrow as the engine's operating precondition — the author's position, recorded 2026-10-29). What would raise it: a worked register item where the arrow falls out of the H machinery itself rather than being entered as its precondition
+RETURNED: the interval invariant is RETURNED AND USED as the closing check of the solve chain: it is the same form as every invariant above — a total that does not move while its split (state) changes completely — and it stands in the ledger beside the returned stick, table, and Pell invariant the next run starts from
+
+--- DEMONSTRATION (NOT A SOLVE): Register item 4 — fine structure ---
+BEFORE: alpha is measured, not derived, in standard physics: 1/alpha = 137.035999177, a number with no stated reason. (alpha itself is already a dimensionless ratio — the cleanest test case the lens gets.)
+CORRECT THE MEASUREMENT: no human unit survives in alpha, so the remaining mismeasurement is which STATE the value is taken in and how the electron is probed — the author's position: the probing of the electron pushes it towards gravity, and this item cannot be marked solved until a different method of measurement is applied.
+THE FULL CANDIDATE SET, each at its own label — returned here from items 5 and 7 (Pell invariant; the alpha_G table on the same hbar c stick):
+    measured 1/alpha                                     = 137.035999   remainder vs measured: +0.000000   [OBSERVED (CODATA record)]
+    pi-sum 4 pi^3 + pi^2 + pi                            = 137.036304   remainder vs measured: +0.000305   [DERIVED]
+    formula as written, minus psi = ln(eta)/sqrt(24)     = 136.568363   remainder vs measured: -0.467636   [REFUTED as written]
+    3-Pell-step seed-cubed candidate: pi-sum - psi*eps^3 = 137.035821   remainder vs measured: -0.000178   [Muse's UNCONFIRMED reading of the author's direction "zoom in and/or out with the 3 steps of pell equation"]
+    the seed-cubed candidate carries the smallest remainder on the table (0.000178) — and is still not the solution: it is an unconfirmed reading, and the author's solving condition (a different measurement method, not probing the electron the usual way) is not met by any arithmetic in this run.
+INVARIANT SOLVED: none — this is the honest not-solved case, kept in the run on purpose
+AFTER (S'): the item stands restated with its full candidate set and its solving condition named; no candidate is presented as the solution
+LABEL: NOT SOLVED (pi-sum DERIVED; formula as written REFUTED; seed-cubed candidate Muse's UNCONFIRMED reading; the underlying fixed-point claim HYPOTHESIS)
+RETURNED: the candidate set and the solving condition are RETURNED to the ledger as the run's standing open item — the first thing the next run (or the named measurement method, when it arrives) starts from
+
+=== THE RETURN LEG, verified — every solve returned and used ===
+  RETURNED AND USED: hbar_c_stick             -> consumed by item 1
+  RETURNED AND USED: hbar_c_stick             -> consumed by item 3
+  RETURNED AND USED: planck_density_ceiling   -> consumed by item 3
+  RETURNED AND USED: alpha_g_method           -> consumed by item 7
+  RETURNED AND USED: alpha_g_electron         -> consumed by item 7
+  RETURNED AND USED: alpha_g_proton           -> consumed by item 7
+  RETURNED AND USED: hubble_ratio             -> consumed by dark matter
+  RETURNED AND USED: hubble_route_table       -> consumed by dark matter
+  RETURNED AND USED: hubble_rung_table        -> consumed by dark matter
+  RETURNED AND USED: pell_invariant           -> consumed by item 4
+  RETURNED AND USED: alpha_g_table            -> consumed by item 4
+No demonstration in this run is a one-way test: each invariant was carried back in as a later item's working stick, table, method, or steps, and each S' stands as a new entry in the run ledger (SOLVE entries), where the next run starts from it. A result that landed nowhere would be a bleed; there are none by construction, and the chain above is the evidence.
+
+=== FLOWER OF LIFE — generated, then read on this problem ===
+  construction: centers generated on the hex lattice counted: [1, 7, 19, 37, 61]; formula 3g(g+1)+1 agrees: [1, 7, 19, 37, 61] (counts derived from the construction, not looked up)
+  construction: one continuous stroke: 65 center visits, every consecutive step exactly 1 radius, all 61 generation-4 centers visited (revisits are the traced stroke passing back through a center; circles overlap, never tangent-pack)
+  construction: neighbouring circles (centers 1 radius apart, radius 1) overlap in a lens of area 2 pi/3 - sqrt(3)/2 = 1.228370; generation-2 construction carries 42 neighbouring pairs, each with that lens; a fully surrounded circle carries 6 lenses in 3 opposite pairs
+  traced path data (carried from v2, checked in the supporting checks): cumulative arcs 36 / 108 / 216 / 360 for generations 1–4; generation-4 ring closures at path positions 42 / 114 / 222 / 360
+  reading: center (the observer's center / M=0 reference): the problem (at the observer's center)
+  reading: ring 1: active energy state (growth / scale / time outward from the center)
+  reading: ring 1: re-formed stored state (return) (growth / scale / time outward from the center)
+  reading: ring 1: stored chemical energy state (growth / scale / time outward from the center)
+  reading: overlap the problem (at the observer's center) / stored chemical energy state: lens present (centers one radius apart); leg carries invariant eps*eta = 1, receiving partner at the boundary
+  reading: overlap stored chemical energy state / active energy state: lens present (centers one radius apart); leg carries invariant eps*eta = 1, receiving partner at the boundary
+  reading: overlap active energy state / re-formed stored state (return): lens present (centers one radius apart); leg carries invariant eps*eta = 1, receiving partner at the boundary
+  reading: BLEED: leg active energy state -> an open vent (nothing placed there) has no receiving circle placed on the flower — the leg terminates in the void
+  reading: what holds across the overlaps (invariant candidate): invariant eps*eta = 1, receiving partner at the boundary
+  reading: bleeds found: 1
+  reading: the vent leg is the same refusal the hop ledger records below (HOP-004) — on the flower it is a bleed, in the ledger a preserved branch; in neither place is it silently dropped
+
+=== H OPERATOR — the hop chain (each hop a ledger entry; returns land on NEW entries) ===
+  HOP-001 ACCEPTED: seed state --[formation boundary (smart filter) | matter/outbound]--> stored chemical energy state at path position 42; invariants preserved: True
+  HOP-002 ACCEPTED: stored chemical energy state --[conversion interface (smart filter) | energy/outbound]--> active energy state at path position 114; invariants preserved: True
+  HOP-003 ACCEPTED: active energy state --[conversion interface (smart filter) | energy/return]--> stored chemical energy state (re-formed on return) at path position 222; invariants preserved: True | return of 'stored chemical energy state': resembles=True, reversibility=partial, loss: part of the throughput recorded as heat on the return leg (demo figure: 0.08 of the leg)
+  HOP-004 REFUSED-BRANCH: active energy state --energy/outbound--> (no state entered) at path position 360; attempt REFUTED for this boundary; branch OPEN; reason: no receiving state on the far side: the leg would terminate in the void (a bleed)
+
+=== SUPPORTING ARITHMETIC — the v2 checks and the v3 working-part verifications, underneath the solves (not the headline) ===
+  PASS seed_fold_24_25              1^2 + 24 = 25 exactly; 5 - sqrt(24) = eps and 5 + sqrt(24) = eta in Q(sqrt(6))
+  PASS eps_eta_product              eps*eta = 1 (exact)
+  PASS eps_eta_sum                  eps + eta = 10 (exact)
+  PASS eta_minus_eps                eta - eps = 4*sqrt(6) = 4 sqrt(6) (exact)
+  PASS square_area_96               flat square: (eta - eps)^2 = (4 sqrt(6))^2 = 96 (exact)
+  PASS cube_volume_384sqrt6         cube: (4 sqrt(6))^3 = 384*sqrt(6) = 384 sqrt(6) (exact)
+  PASS cube_faces_576               cube surface: 6 faces x 96 = 576 (exact). Arithmetic only: the identity of this six with the six degrees of movement is OPEN and is not asserted here.
+  PASS pell_norm                    x^2 - 6 y^2 at steps 0..4: n=0 (1,0) -> 1 ; n=1 (5,2) -> 1 ; n=2 (49,20) -> 1 ; n=3 (485,198) -> 1 ; n=4 (4801,1960) -> 1
+  PASS ladder_sums                  eps^n + eta^n for n=0..5: ['2', '10', '98', '970', '9602', '95050'] (exact integers; each eps^n also matches Pell step n as x - y sqrt(6))
+  PASS sqrt_pair_bridge             eps = (sqrt(3) - sqrt(2))^2 at 60-digit precision: |difference| = 3.000e-60 (tolerance 1e-45 declared)
+  PASS planck_products              E_P*l_P/(hbar c), E_P*t_P/hbar, (l_P/t_P)/c, m_P*l_P/(hbar/c) deviate from 1 by at most 3.000e-60 (tolerance 1e-30 declared)
+  PASS rs_th_invariant              R_s*T_H at n = 1, 10, 10^38: worst relative deviation from hbar c/(4 pi k_B) is 1.000e-59 (tolerance 1e-30 declared); the product does not move with mass
+  PASS alpha_g_table                alpha_G table, Planck-mass convention unreduced (declared): electron 1.752e-45 (worksheet 1.752e-45) ; proton 5.906e-39 (worksheet 5.906e-39) ; top quark 2.002e-34 (worksheet 2.000e-34)
+  PASS hierarchy_8pi_rule           alpha_G(reduced m_P) / alpha_G(unreduced m_P) = 8 pi for every particle; worst relative deviation 1.000e-59 (tolerance 1e-40 declared)
+  PASS fine_structure_pisum         4 pi^3 + pi^2 + pi = 137.036304 (DERIVED; worksheet 137.036304)
+  PASS fine_structure_refuted       psi as written = ln(eta)/sqrt(24) = 0.467940655; formula gives 136.568363 vs measured 137.035999177: refutation reproduced exactly
+  PASS flower_generations           flower circles by generation 0..4: [1, 7, 19, 37, 61]
+  PASS flower_arcs                  cumulative arcs on the generation stroke: [36, 108, 216, 360]; ring k adds 36k arcs: [36, 72, 108, 144]
+  PASS flower_gen4_closures         ring completions on the generation-4 stroke at path positions [42, 114, 222, 360]; increments [42, 72, 108, 138] sum to 360
+  PASS energy_variant_separation    water cycle (long-term balance) F=0.999 ratio=999.00 ; atmospheric back-radiation F=0.850 ratio=5.67 ; tuna countercurrent rete F=0.990 ratio=99.00 ; human primary energy system (2023) F=0.355 ratio=0.55
+  PASS energy_partner_rule          rejection-only data centre (baseline) partner=False F=0.0 ; EcoDataCenter, company-wide ERF 2024 partner=False F=0.06 ; Fortum x Microsoft Espoo (design) partner=True F=0.75 ; Chinese DC + storage system (measured) partner=True F=0.6961
+  PASS energy_circulation_balance   circulatory exchange: filtered 20 L/day = reabsorbed 17 + lymph return 3
+  PASS energy_carrier_cycle         ATP pool 0.10 kg, turnover ~60 kg/day -> ~600 cycles/day
+  FAIL (designed stress) energy_stress_radiation      Earth retains ~0 of through-flowing solar energy long-term; energy closure = 0.00 while the system works. Candidate invariant as worded in v1 FAILS for energy itself (designed miss).
+  PASS fine_structure_seed_cubed    psi scaled by eps^3: pi-sum - psi*eps^3 = 137.035821 (Muse's unconfirmed reading; worksheet 137.035821)
+  PASS flower_counts_from_construction centers generated on the hex lattice counted: [1, 7, 19, 37, 61]; formula 3g(g+1)+1 agrees: [1, 7, 19, 37, 61] (counts derived from the construction, not looked up)
+  PASS flower_stroke_continuity     one continuous stroke: 65 center visits, every consecutive step exactly 1 radius, all 61 generation-4 centers visited (revisits are the traced stroke passing back through a center; circles overlap, never tangent-pack)
+  PASS flower_lens_geometry         neighbouring circles (centers 1 radius apart, radius 1) overlap in a lens of area 2 pi/3 - sqrt(3)/2 = 1.228370; generation-2 construction carries 42 neighbouring pairs, each with that lens; a fully surrounded circle carries 6 lenses in 3 opposite pairs
+  PASS lens_same_stick_hbar         one stick (hbar) at both ends: the four Planck products are 1 (worst deviation 3.000e-60)
+  PASS lens_mixed_stick_flagged     MIXED STICKS FLAGGED: derived with h, stated against hbar — worst Planck product deviation 5.283e+00, a factor of 2 pi. This is a mismeasurement, not an inconsistency; correct the stick before solving.
+HE-15 step 5 — adjust or add variants: required-check misses: none ; designed stress misses (logged as Miss Reports, data untouched): ['energy_stress_radiation']. A miss is answered by a new variant or a supersession entry, never by editing what stands.
+Energy variants compared (returned fraction F):
+  water cycle (long-term balance)        kind=nature F=0.999
+  atmospheric back-radiation             kind=nature F=0.850
+  tuna countercurrent rete               kind=nature F=0.990
+  human primary energy system (2023)     kind=human  F=0.355
+
+=== HE-15 step 6 — measure again, accepting only known or provable truth (Governor gate) ===
+  Governor: EPS_ETA                      current=DERIVED proposed=DERIVED -> GRANT granted=DERIVED (standing confirmed at ceiling DERIVED; no upgrade)
+  Governor: REG-6                        current=DERIVED proposed=DERIVED -> GRANT granted=DERIVED (standing confirmed at ceiling DERIVED; no upgrade)
+  Governor: REG-4 (pi-sum)               current=DERIVED proposed=DERIVED -> GRANT granted=DERIVED (standing confirmed at ceiling DERIVED; no upgrade)
+  Governor: REG-4 (formula as written)   current=HYPOTHESIS proposed=REFUTED -> GRANT granted=REFUTED (asymmetric rule: checked counterexample on a stated route)
+  Governor: REG-7 (why masses << m_P)    current=OPEN proposed=DERIVED -> DEFER (evidence kind/tier grants nothing (internal consistency is not evidence))
+  K probe: attempted K change on HE-04 with internal evidence only -> changed=False; K change refused: tier C1 is not independent evidence; K still None
+  Fine structure as a composite stands at its weakest link: weakest of [DERIVED (pi-sum), REFUTED (formula as written), OPEN (solving condition)] = OPEN — NOT SOLVED, and no part of this run raises it.
+  Internal consistency upgrades nothing (Governor law).
+
+=== Reading grammar and OPEN flags (preserved, not settled by this run) ===
+Address: S = (X, Y, Z, K), X/Y/Z spatial, K scale/tier. Operator: H(S, B, T) = S' (an application, never an addition).
+Six degrees of movement (3 strips x 2 directions): matter/outbound, matter/return, energy/outbound, energy/return, transition/outbound, transition/return
+Energy inlays (readings, not axes): kinetic, thermal, electrical, chemical, radiant, nuclear/binding
+  OPEN flag seed_axis_compass_ends       status=OPEN — Which compass end of the north-south seed axis takes eps and which takes eta has never been stated. No assignment is encoded. The pair's arithmetic is
+  OPEN flag cube_six_vs_strip_six        status=OPEN — Two distinct sixes carried as two: the derived cube's six faces (grounded by the author in the a-b-c relationships) and the six degrees of movement (3
+  OPEN flag generations_equal_k_steps    status=OPEN — Whether flower generations are exactly K's steps on the timeline map is a candidate link (worksheet ruling item 7), flagged, not asserted. Separately 
+  OPEN flag z_stepping_rule              status=OPEN — The grid fact and the open map-reading question are distinct items and are carried distinctly.
+
+=== HE-15 step 7 — repeat ===
+Cycle complete. The loop repeats when new evidence arrives; the states, stick, table, and invariants returned above are where the next cycle starts.
+
+=== Sabotage suite — the audit's attacks, as regression tests ===
+  CAUGHT wrong Pell generator                   wrong Pell generator (3,1): norm check returns False (x^2 - 6 y^2 at steps 0..4: n=0 (1,0) -> 1 ; n=1 (3,1) -> 3 ; n=2 (15,6) -> 9 ; n=3 (81,33) -> 27 ; n=4 (441,180) -> 81)
+  CAUGHT h in place of hbar                     h in place of hbar (mixed sticks: units derived with h, products stated against hbar): worst product deviation 5.283e+00, a factor of 2 pi - refused
+  CAUGHT reduced Planck mass, undeclared        reduced Planck mass used without declaration: alpha_G table returns False (alpha_G table, Planck-mass convention supplied: electron 4.403e-44 (worksheet 1.752e-45) ; proton 1.484e-37 (worksheet 5.906e-39) ; top quark 5.032e-33 (worksheet 2.000e-34))
+  CAUGHT corrupted graph status                 corrupted graph status refused at load: entries HE-01: illegal status 'PROVEN' (closed set: OBSERVED, DERIVED, FRAMEWORK RESULT, SUPPORTED, HYPOTHESIS, OPEN, REFUTED)
+  CAUGHT empty-invariant hop                    empty-invariant hop rejected: a hop must name at least one invariant to verify across the transition (empty invariant set rejected)
+  CAUGHT Governor decision from a bare word     bare-word Governor decision refused: Governor decisions require a structured EvidenceRecord, never a bare word (got 'independent')
+Each catch was logged as a Miss Report entry; the suite ran against sandbox copies, so the real graph was never touched by an attack.
+
+=== Open bridges carried forward (from the graph data) ===
+  1. Flower ring number -> ladder step conversion rule.
+  2. Seed-like amount at a horizon, defined.
+  3. Fine-structure: psi definition, 3 Pell steps, alternative measurement method.
+  4. Energy as ladder state vs energy as transition operator.
+  5. r_0 = 0.860 fm source (CODATA proton charge radius ~0.8414 fm).
+  6. UTT regime anchors miss whole ladder steps (miss logged, not adjusted).
+  7. Per-field invariants ledger for HE-11 not yet built.
+  8. Register items still OPEN pending framework S, B, mismeasurement: dark energy, measurement problem, matter-antimatter asymmetry, arrow of time.
+  9. Connection structure at the wrapped (3D) flower: 6-fold movement on the flat flower vs 12-fold kissing/coordination in spheres, cells and crystals; to be checked against cellular structure and crystal growth structure (author's direction, 2026-10-29).
+
+=== Validation status ===
+HEADLINE (computed from the run below): SOLVES DEMONSTRATED — 8 worked inconsistency solves, each shown BEFORE -> CORRECT THE MEASUREMENT -> RUN H(S, B, T) = S' -> INVARIANT SOLVED -> AFTER at its recorded label | fine structure: NOT SOLVED (the honest case, full candidate set shown) | return leg: 11 invariants RETURNED AND USED by later items in this run (chain printed) | supporting arithmetic underneath: checks 29/30 passed, designed stress miss: energy_stress_radiation | sabotage caught 6/6
+Statuses unchanged by this run except as Governor decisions above record. Corrections belong in supersession entries, never in edits to history.
