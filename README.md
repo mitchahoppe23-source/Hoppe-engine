@@ -142,10 +142,30 @@ hidden.
 
 ## Provenance
 
-Original archive: Figshare, DOI 10.6084/m9.figshare.33472975
+Original archive: Figshare
 (*Scale-Invariant Boundary Geometry: A Unified M=0 Lattice Model*) —
-removed by the platform; the DOI still resolves to the removal notice, so
-the dated existence stands. This repository is the work's new home.
+removed by the platform; the deposit's record is gone.
+This repository is the work's new home.
+
+## The working package
+
+The working package the university email points to, published here
+2026-11-13 — all files at this repository's root, dated 2026-11-08:
+
+- `hoppe-construction-core-statement-2026-11-08.md` — the construction
+  statement: seed, construction, and the solved inconsistencies.
+- `hoppe-engine-prompt-2026-11-08.md` — the handoff prompt.
+- `hoppe-engine-lean-card-2026-11-08.md` — the lean card.
+- `hoppe-scale-up-map-2026-11-08.md` — the scale-up map.
+- `hoppe-universe-map-2026-11-08.md` — the universe map.
+- `m0-register-closure-2026-11-07.md` — the register closure.
+- `periodic-table-pass-1-2026-11-08.md` — periodic-table pass 1.
+- `periodic-table-pass-2-knot-map-2026-11-08.md` — periodic-table pass 2.
+- `hoppe-construction-symbol-2026-11-08.png` / `.svg` — the construction
+  symbol.
+
+Public record with third-party custody: Zenodo,
+DOI 10.5281/zenodo.23943147 (CC BY 4.0, published 2026-11-04).
 
 ## This release
 
